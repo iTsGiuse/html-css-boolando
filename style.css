@@ -38,6 +38,13 @@ footer{
     gap: 10px;
     align-items: center;
 }
+.box_prezzo {
+    display: block;
+    border: 1px solid transparent;
+    color: black;
+    position: relative;
+}
+
 /* FINE ELEMENTI PAGINA */
 
 /* INIZIO CARATTERISTICHE TAG */
@@ -82,53 +89,72 @@ ul, li{
 /* FINE FOOTER */
 
 /* INIZIO MAIN */
-.image_shopping{
-    background-image: cover;
-    width: 200px;
-    height: 300px;
-}
-.box_prezzo {
-    display: block;
-    border: 1px solid transparent;
-    color: black;
-    margin-top: 30px;
-}
-.preferito {
-    background-color: white;
-    border: 1px solid transparent;
-    width: 10px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border: 0px solid;
-
-}
-.preferito:hover {
-    color: rgb(255, 0, 0);
-}
-
 .txt_sconto_red{
     color: red;
+    margin-left: -5px;
 }
 .txt_prezzo_da_scontare{
     color: black;
     text-decoration: line-through;
-}
-.sconto_box {
-    background-color: red;
-    border: 1px solid transparent;
-    width: 30px;
-    color: white;
-    position: relative;
+    margin-right: -0px;
 }
 
-.sostenibilità {
-    background-color: green;
+.like{
+    background-color: black;
     border: 1px solid transparent;
     width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    text-align: center;
+}
+.like:hover {
+    background-color: red;
+}
+.image_shopping{
+    width: 200px;
+ }
+
+.sostenibilità  {
+    background-color: green;
+    border: 1px solid transparent;
+    width: auto;
+    padding: 5px;
     color: white;
-    position: relative;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    text-align: center;
+}
+.sconto  {
+    background-color: red;
+    border: 1px solid transparent;
+    width: auto;
+    padding: 3px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    text-align: center;
+
+}
+
+/* 
+.card .card-image-hover {
+    display: inline-block;
+}
+
+.card:hover .card-image-hover {
+    display: block;
+}
+.card:hover .card-image-default {
+    display: none;
+} */
+
+h5{
+    font-weight: normal;
+    font-size: 10px;
 }
 /* FINE MAIN */
