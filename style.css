@@ -10,7 +10,7 @@ header{
 }
 
 main{
-    background-color: whitesmoke;
+    background-color: white;
     min-height: 500px;
 }
 
@@ -55,8 +55,14 @@ ul, li{
     font-size: 15px;
 }
 
-.distanza{
+.distanza_footer{
     margin-top: -70px;
+}
+
+.distanza_articolo{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .iconcine{
@@ -73,6 +79,56 @@ ul, li{
     display: inline-block;
     color: white;
 }
-
-
 /* FINE FOOTER */
+
+/* INIZIO MAIN */
+.image_shopping{
+    background-image: cover;
+    width: 200px;
+    height: 300px;
+}
+.box_prezzo {
+    display: block;
+    border: 1px solid transparent;
+    color: black;
+    margin-top: 30px;
+}
+.preferito {
+    background-color: white;
+    border: 1px solid transparent;
+    width: 10px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0px solid;
+
+}
+.preferito:hover {
+    color: rgb(255, 0, 0);
+}
+
+.txt_sconto_red{
+    color: red;
+}
+.txt_prezzo_da_scontare{
+    color: black;
+    text-decoration: line-through;
+}
+.sconto_box {
+    background-color: red;
+    border: 1px solid transparent;
+    width: 30px;
+    color: white;
+    position: relative;
+}
+
+.sostenibilità {
+    background-color: green;
+    border: 1px solid transparent;
+    width: 20px;
+    color: white;
+    position: relative;
+}
+/* FINE MAIN */
